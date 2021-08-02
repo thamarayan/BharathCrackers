@@ -1,0 +1,240 @@
+/* Top Nav */
+
+#topNav{
+  background-color: #52006A;
+  padding: 5px 7%;
+}
+
+#topNav a{
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  padding-right: 25px ;
+}
+
+.marqueeStyle{
+  color: yellow;
+}
+
+.bi{
+  color: white;
+}
+
+.socialIcon:hover{
+  color: yellow !important;
+}
+
+/* Middle Nav */
+
+#middleNav{
+  padding: 3% 7% 2%;
+}
+
+.searchBar{
+  border-color: #52006A;
+}
+
+#bottomNav{
+  background-color: #52006A;
+}
+
+.bottomNav-a{
+  text-decoration: none;
+  color: white;
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  padding-right: 50px;
+  /* font-size: 1.2rem; */
+}
+
+
+
+#bottomNav li a:hover{
+  color: yellow;
+  transform: scale(1.1);
+}
+
+/* Index page */
+/* Index-1 */
+.index-cf{
+  padding: 2% 7%;
+  background-color: #F9F9F9;
+  /* background-image: linear-gradient(46deg, #f5f5f5 25%, #fff 25%, #fff 50%, #f5f5f5 50%, #f5f5f5 75%, #fff 75%, #fff 100%);
+  background-size: 55.61px 57.58px; */
+}
+
+.index-leftcol{
+  background-color: #f5f5f5;
+  margin: 3%;
+  border-radius: 20px;
+  border: 1px solid #e0dddd; 
+  
+}
+
+.index-head{
+  padding: 20% 0% 0% 5%;
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;  
+}
+
+.index-h2{
+  padding: 0% 0% 2% 5%;
+}
+
+.index-head-2{
+  padding: 5% 0% 0% 5%;
+  font-family: 'Lato', sans-serif;
+  font-weight: bold
+}
+
+.index-p{
+  padding: 0% 0% 2% 5%;
+  font-weight: bold;
+}
+
+.index-btn{
+  padding:2%;
+  margin-bottom: 5%;
+  margin-left: 5%;
+}
+
+.index-img{
+  padding-top: 10%;
+  padding-right: 10%;
+  width: 90%;
+}
+
+.index-img1{
+  padding-top: 20%;
+  padding-right: 30%;
+  width: 130%;
+}
+
+#carouselExampleCaptions{
+  height: 350px;
+}
+
+.row1{
+  background-image: linear-gradient(45deg, #f4f9f9 25%, #fafa7d 25%, #fafa7d 50%, #f4f9f9 50%, #f4f9f9 75%, #fafa7d 75%, #fafa7d 100%);
+  background-size: 56.57px 56.57px;
+  height: 350px;
+}
+
+.row2{
+  background-image: linear-gradient(133deg, #f4f9f9 25%, #dedede 25%, #dedede 50%, #f4f9f9 50%, #f4f9f9 75%, #dedede 75%, #dedede 100%);
+background-size: 54.69px 58.65px;
+  height: 350px; 
+}
+
+.row3{
+  background-image: linear-gradient(133deg, #f4f9f9 25%, #c8fcbb 25%, #c8fcbb 50%, #f4f9f9 50%, #f4f9f9 75%, #c8fcbb 75%, #c8fcbb 100%);
+  background-size: 54.69px 58.65px;
+  height: 350px;
+}
+
+/* Index-2 */
+#index-2{
+  padding: 2% 7% 0%;
+  text-align: center;
+}
+
+.index2-head{
+  padding: 2%;
+}
+
+.catog-head{
+  font-weight: bold;
+  font-family: 'Lato', sans-serif;
+}
+
+/* .col-md-4{
+  padding: 2% 0% !important;
+} */
+
+.card{
+  margin: 2% 0% !important;
+}
+
+.card:hover{
+  transform:scale(1.01);
+}
+
+.card ul li{
+  font-weight: bold;
+  text-align: left;
+}
+
+.banner2{
+  padding: 2%;
+  
+}
+
+.banner3{
+  padding: 2% 0% 0%;
+  text-align: center;
+}
+
+#index-3{
+  padding: 2% 7%;
+}
+
+/* about us */
+.aboutus-cf{
+  padding: 2% 7%;
+}
+
+.contact-h4{
+  font-weight: bold;
+  font-family: 'Lato', sans-serif;
+}
+
+.contact-h3{
+  font-weight: bolder;
+}
+
+.contact-h3-1{
+  font-weight: bold;
+  font-family: 'Lato', sans-serif;
+}
+
+/* Shop */
+
+#shop{
+  padding: 2% 7%;
+}
+
+.list-group-item{
+  color: #52006A;
+}
+
+.list-group-item.active {
+  background-color: #52006A;
+  color: wheat; 
+}
+
+.includer{
+  position: relative;
+ }
+ 
+ .badge.badge-success{
+  background-color: yellow;
+  color: tomato;
+  position: absolute; 
+  top: -5px;
+  right: -5px;
+ }
+
+/* Footer */
+
+.footer-cf{
+  background-color: #52006A;
+  text-align: center;
+}
+
+.footer-p{
+  font-weight: bold;
+  font-family: 'Lato', sans-serif;
+  color: yellow;
+  padding: 1%;
+}
+

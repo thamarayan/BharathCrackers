@@ -1,0 +1,40 @@
+<section id="shop">
+    <div class="container-fluid shop-cf">
+        <div class="row">
+            <div class="col-md-3">
+                <h5>Browse by</h5>
+                <div class="list-group">
+                <button type="button" class="list-group-item list-group-item-action active" aria-current="true">KIDS</button>
+                <button type="button" class="list-group-item list-group-item-action">FAMILY</button>
+                <button type="button" class="list-group-item list-group-item-action">TEENAGERS</button>
+                <button type="button" class="list-group-item list-group-item-action">CELEBRATION & EVENTS</button>
+                <button type="button" class="list-group-item list-group-item-action">DAY CRACKERS</button>
+                <button type="button" class="list-group-item list-group-item-action">NIGHT DISPLAY</button>
+                <button type="button" class="list-group-item list-group-item-action">GIFT BOXES</button>
+                <button type="button" class="list-group-item list-group-item-action">NEW ARRIVALS</button>
+                </div>
+            </div>
+            <div class="col-md-9">
+                <img  src="images/banner-2.png" alt="" style="text-align: center; padding:0% 0% 2% 12%">
+                <div class="row">
+                    {{#each products}}
+                    <div class="col-md-4 product-card">
+                        <div class="card shadow" style="width: 15rem;">
+                            <span class="badge badge-success">{{this.brand}}</span>
+                            <img src="{{this.imagePath}}" class="card-img-top" alt="..." style="width: 90%;">
+                            <div class="card-body">
+                                <h5 class="card-title">{{this.title}}</h5>
+                                <p class="card-text">{{this.description}}</p>
+                                <p style="font-weight: bold;">Rs.{{this.price}}</p>
+                                {{#if this.availability}}
+                                <a href="#" class="btn btn-sm btn-primary">Add to Cart</a>
+                                {{else}}
+                                <a href="#" class="btn btn-sm btn-primary disabled">Out of Stock</a>
+                                {{/if}}
+                            </div>
+                        </div>
+                    </div>
+                    {{/each}}
+                </div>
+            </div>
+</section>
